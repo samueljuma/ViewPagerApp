@@ -4,6 +4,9 @@
 ## Motive
 > I intend to use it as a go-to-resource for future implementations of viewPager
 
+### APK
+[Download APK for testing here] (https://github.com/)
+
 ### Libraries
 ViewPager
 DotsIndicator 
