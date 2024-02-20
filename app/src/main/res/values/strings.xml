@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ViewPager_App</string>
+    <string name="_101_s_of_budgeting">101\'s of Budgeting</string>
+    <string name="desc">Set aside a portion of your income for savings or investments before spending on anything else.
+        It ensures financial security by prioritizing long-term savings and investment goals.</string>
+    <string name="title">Pay Yourself First</string>
 </resources>
