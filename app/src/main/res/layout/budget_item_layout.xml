@@ -3,6 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <data>
+        <variable
+            name="budgetItem"
+            type="com.sjcreatives.viewpager_app.data.BudgetItem" />
+    </data>
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -44,7 +50,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="@string/title"
+                tools:text="@string/title"
+                android:text="@{budgetItem.title}"
                 android:textColor="#1F6AEC"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -58,7 +65,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:padding="10dp"
-                android:text="@string/desc"
+                tools:text="@string/desc"
+                android:text="@{budgetItem.desc}"
                 android:textAlignment="center"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -69,3 +77,4 @@
     </androidx.cardview.widget.CardView>
 
 </layout>
+
