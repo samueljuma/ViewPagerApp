@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
         adapter = BudgetItemAdapter()
         viewPager2.adapter = adapter
 
+        binding.indicator.attachTo(viewPager2)
+
         val budgetItemsList = listOf(
             BudgetItem(getString(R.string.title1),getString(R.string.desc1)),
             BudgetItem(getString(R.string.title2),getString(R.string.desc2)),
